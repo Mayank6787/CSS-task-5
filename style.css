@@ -1,0 +1,55 @@
+/* Reset some default styles and apply basic styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;background: url("https://images.unsplash.com/photo-1682695796795-cc287af78a2b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+/* Style the horizontal navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the brand section */
+.brand h1 {
+    margin: 0;
+}
+
+/* Style the content sections */
+section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
